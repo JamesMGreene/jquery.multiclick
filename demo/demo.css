@@ -1,0 +1,42 @@
+*, html {
+	padding: 0;
+	margin:  0;
+}
+
+h4, button {
+	margin-top: 15px;
+}
+
+div[role=main] div {
+	position: relative;
+	
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(0, 0, 0) transparent;
+}
+
+#clicker1 {
+	height: 140px;
+	width: 280px;
+	border: 1px solid blue;
+	
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 255, 0.6);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+#clicker2 {
+	height: 78px;
+	width: 218px;
+	margin: 30px;
+	border: 1px dashed red;
+	
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 0, 0, 0.6);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery.multiclick: Basic Demo</title>
+	<link type="text/css" rel="stylesheet" href="demo.css" />
+</head>
+<body>
+<header>
+	<h1>Note: Please have the JavaScript console open during the demo!</h1>
+</header>
+<div role="main">
+	<button type="button">Click me!</button>
+</div>
+
+<footer>
+	<a href="../index.html">Back to the main project page</a>
+</footer>
+
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline or using file protocol -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script type="text/javascript" src="../lib/jquery-1.7.1.min.js"><\/script>')</script>
+
+<script type="text/javascript" src="../src/jquery.multiclick.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("button").on("click", function($event) { console.log("Click!"); });
+		$("button").on("multiclick", { clicks: 3 }, function($event) { console.log("Boom!"); });
+	});
+</script>
+</body>
+</html>
