@@ -2,7 +2,7 @@
   "name": "multiclick",
   "title": "jquery.multiclick",
   "description": "Bind to the `multiclick` event, a custom DOM-like event generated using jQuery's Special Events API. The `multiclick` event triggers when the user clicks within the bound element a configurable number of times.",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "homepage": "https://github.com/JamesMGreene/jquery.multiclick",
   "author": {
     "name": "James M. Greene",
