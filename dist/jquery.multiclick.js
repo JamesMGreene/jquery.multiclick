@@ -1,4 +1,4 @@
-/*! jquery.multiclick - v0.5.1 - 2013-02-14
+/*! jquery.multiclick - v0.5.3 - 2013-02-14
 * https://github.com/JamesMGreene/jquery.multiclick
 * Copyright (c) 2013 James M. Greene; Licensed MIT */
 (function($) {

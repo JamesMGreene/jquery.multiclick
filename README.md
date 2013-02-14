@@ -14,8 +14,8 @@ Check the [jQuery Plugins Registry](http://plugins.jquery.com/multiclick/) for t
 
 You can also download the [production version][min] or the [development version][max] from GitHub.
 
-[min]: https://raw.github.com/JamesMGreene/jquery.multiclick/master/dist/multiclick.min.js
-[max]: https://raw.github.com/JamesMGreene/jquery.multiclick/master/dist/multiclick.js
+[min]: https://raw.github.com/JamesMGreene/jquery.multiclick/master/dist/jquery.multiclick.min.js
+[max]: https://raw.github.com/JamesMGreene/jquery.multiclick/master/dist/jquery.multiclick.js
 
 In your web page:
 
@@ -49,5 +49,5 @@ jQuery(selector).on("multiclick", { clicks: 5 }, callbackFunc);
 _(Coming soon)_
 
 ## Release History
- - 0.5.1: Published to the jQuery Plugins Registry on 2013-02-14.
+ - 0.5.3: Published to the jQuery Plugins Registry on 2013-02-14.
      - Initial release, plus filename updates.
