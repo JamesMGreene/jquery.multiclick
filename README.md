@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/JamesMGreene/jquery.multiclick.png)](https://travis-ci.org/JamesMGreene/jquery.multiclick)
 
-# $.multiclick
+# jquery.multiclick
 
 Bind to the `multiclick` event, a custom DOM-like event generated using jQuery's Special Events API.
 The `multiclick` event triggers when the user clicks within the bound element a configurable number of times.
@@ -21,7 +21,7 @@ In your web page:
 
 ```html
 <script src="jquery.js"></script>
-<script src="dist/multiclick.min.js"></script>
+<script src="dist/jquery.multiclick.min.js"></script>
 <script>
     jQuery(selector).on("multiclick", { clicks: 3 }, callbackFunc);
 </script>
@@ -49,5 +49,5 @@ jQuery(selector).on("multiclick", { clicks: 5 }, callbackFunc);
 _(Coming soon)_
 
 ## Release History
- - 0.5.0: Published to the jQuery Plugins Registry on 2013-02-14.
-     - Initial release.
+ - 0.5.1: Published to the jQuery Plugins Registry on 2013-02-14.
+     - Initial release, plus filename updates.
