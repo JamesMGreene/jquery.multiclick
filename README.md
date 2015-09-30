@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/JamesMGreene/jquery.multiclick.png)](https://travis-ci.org/JamesMGreene/jquery.multiclick)
+[![Build Status](https://travis-ci.org/JamesMGreene/jquery.multiclick.png?branch=master)](https://travis-ci.org/JamesMGreene/jquery.multiclick)
 
 # jquery.multiclick
 
